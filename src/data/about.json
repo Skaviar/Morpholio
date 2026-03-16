@@ -1,0 +1,61 @@
+{
+  "url": "/",
+  "label": "About",
+  "header": {
+    "logo": "/imgs/landing/education.png",
+    "menu": "/imgs/landing/menu.png",
+    "name": "Swanand Kavitkar",
+    "degreeShort": "MSCS",
+    "universityShort": "ASU",
+    "university": "Arizona State University"
+  },
+  "footer": {
+    "socialMediaURLs": [
+      {
+        "url": "https://www.linkedin.com/in/s-threepio/",
+        "icon": "/imgs/landing/linkedin.png"
+      },
+      {
+        "url": "https://github.com/S-Threepio",
+        "icon": "/imgs/landing/github.png"
+      },
+      {
+        "url": "https://s-threepio.medium.com/",
+        "icon": "/imgs/landing/medium.png"
+      }
+    ],
+    "copyright": "© 2026 by Swanand Kavitkar",
+    "call": "+1 (623) 283-8579",
+    "email": "kavitkarswanand5@gmail.com"
+  },
+  "cardsection": {
+    "socialMediaURLs": [
+      {
+        "url": "https://www.linkedin.com/in/s-threepio/",
+        "icon": "/imgs/landing/linkedin-blue.png"
+      },
+      {
+        "url": "https://leetcode.com/Masked_Yurnero/",
+        "icon": "/imgs/landing/leetcode.png"
+      },
+      {
+        "url": "https://s-threepio.medium.com/",
+        "icon": "/imgs/landing/medium.png"
+      },
+      {
+        "url": "https://github.com/S-Threepio",
+        "icon": "/imgs/landing/github.png"
+      }
+    ],
+    "pfp": "/imgs/landing/pfp.jpg",
+    "firstName": "Swanand",
+    "lastName": "Kavitkar",
+    "degreeShort": "MSCS @ ASU",
+    "date": "Graduated May 2024"
+  },
+  "bio": {
+    "bigGreet": "Hello",
+    "intro": "I am Swanand and I code.",
+    "description": "I completed my Master's degree in Computer Science at Arizona State University. Previously, I worked as a Software Engineer at HSBC, where I played a crucial role in developing feature-rich mobile banking applications to enhance customer experience and optimize transactions. With a solid background in Web and Android development, I possess expertise in AWS Cloud services.\n\nI am actively pursuing full-time software engineer opportunities to utilize my exceptional academic achievements and hands-on experience, aiming to create significant contributions within the technology industry.\n\nIf you are seeking someone to build scalable and high-quality software products, feel free to reach out to me on phone/email mentioned below.\n\nHave a great day!!"
+  }
+}

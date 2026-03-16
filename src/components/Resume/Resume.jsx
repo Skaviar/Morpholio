@@ -5,29 +5,6 @@ import { GlobalDataContext } from "../../provider/GlobalDataProvider";
 
 const Resume = () => {
   const resume = useContext(GlobalDataContext).resume;
-  const handleView = () => {
-    // Create a temporary <a> element to trigger the download
-    const link = document.createElement("a");
-    link.href = process.env.PUBLIC_URL + "/Swanand_Kavitkar.pdf";
-    link.target = "_blank";
-    link.rel = "noopener noreferrer";
-    link.type = "application/pdf";
-    link.click();
-  };
-
-  const handleDownload = () => {
-    // Create a temporary <a> element to trigger the download
-    const link = document.createElement("a");
-    link.href = process.env.PUBLIC_URL + "/Swanand_Kavitkar.pdf";
-    link.download = "Swanand_Kavitkar_Resume.pdf"; // Specify the file name you want the user to download as
-    link.target = "_blank"; // Open the file in a new tab
-
-    document.body.appendChild(link);
-    link.click();
-
-    // Clean up the temporary <a> element
-    document.body.removeChild(link);
-  };
 
   return (
     <div className="flex bg-secondary flex-col flex-1 sm:overflow-y-scroll scrollbar-hide">
@@ -36,20 +13,21 @@ const Resume = () => {
           <div className="text-5xl text-left font-bold w-max">Summary</div>
           <div className="text-lg text-justify">{resume.summary}</div>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-5 text-center">
-            <div
-              href="/resume"
-              className="px-12  py-0.5 font-semibold bg-primary hover:cursor-pointer transition duration-100 ease-out hover:scale-105 hover:bg-white text-gray-800 border border-gray-400 rounded-full shadow"
-              onClick={handleDownload}
+            <a
+              href="/Swanand_Kavitkar.pdf"
+              download="Swanand_Kavitkar_Resume.pdf"
+              className="px-12 py-0.5 font-semibold bg-primary transition duration-100 ease-out hover:scale-105 hover:bg-white text-gray-800 border border-gray-400 rounded-full shadow"
             >
               Download Resume
-            </div>
-            <div
-              href="/resume"
-              className="px-12  py-0.5 font-semibold hover:cursor-pointer bg-primary transition duration-100 ease-out hover:scale-105 hover:bg-white text-gray-800 border border-gray-400 rounded-full shadow"
-              onClick={handleView}
+            </a>
+            <a
+              href="/Swanand_Kavitkar.pdf"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="px-12 py-0.5 font-semibold bg-primary transition duration-100 ease-out hover:scale-105 hover:bg-white text-gray-800 border border-gray-400 rounded-full shadow"
             >
               View Resume
-            </div>
+            </a>
           </div>
         </div>
       </div>

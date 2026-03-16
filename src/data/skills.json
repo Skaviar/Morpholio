@@ -1,0 +1,66 @@
+{
+  "url": "/skills",
+  "label": "Skills",
+  "tech": [
+    {
+      "type": "Programming Languages",
+      "info": "Python, Java, Kotlin, C++, C, Javascript"
+    },
+    {
+      "type": "Android Development",
+      "info": "MVVM, Jetpack components, LiveData, RxJava, Retrofit, Kotlin Coroutines, View and Data Binding"
+    },
+    {
+      "type": "Web Technology",
+      "info": "ReactJS, CSS, Tailwind CSS, Bootstrap, Jquery"
+    },
+    {
+      "type": "Backend",
+      "info": "Spring, SpringBoot, Hibernate, ExpressJS, NodeJS"
+    },
+    {
+      "type": "AWS Cloud",
+      "info": "S3, Dynamo-DB, API-Gateway, Lambda, Transcribe, Comprehend, Cognito"
+    },
+    {
+      "type": "Containerization",
+      "info": "Docker, Vagrant, WSL2"
+    },
+    {
+      "type": "Software Development Practices",
+      "info": "Agile, Scrum, JIRA, Confluence, Github"
+    }
+  ],
+  "soft": [
+    {
+      "img": "/imgs/skills/soft/teamWork.png",
+      "type": "Team Work",
+      "info": "Worked on the HSBC Oman and Qatar app with a team consisting of freshers and completed all the requirements with highest level of collaboration. I have repeatedly partnered with senior developers outside my team to resolve global level build issues."
+    },
+    {
+      "img": "/imgs/skills/soft/adaptability.jpeg",
+      "type": "Adaptability",
+      "info": "I was trained in full stack however the project assigned in HSBC was of Android. I adapted to it within a week and started contributing by the first month. I was the first in the department to complete the Google Android certification requested by HSBC."
+    },
+    {
+      "img": "/imgs/skills/soft/Communication.webp",
+      "type": "Communication",
+      "info": "Communicated with stakeholders from Oman and Qatar whilst giving demos for sprint work every alternate week. I also took a lot of knowledge transfer sessions to educate others about the codebase and various technologies."
+    },
+    {
+      "img": "/imgs/skills/soft/problemSolving.webp",
+      "type": "Problem Solving",
+      "info": "I worked on making a QR Code module configurable while it was live in production for two other entities. I also helped a different team merge their codebase into our existing live modules, resolved issues during integration and provided robust alternatives."
+    },
+    {
+      "img": "/imgs/skills/soft/creativity.jpg",
+      "type": "Creativity",
+      "info": "During the Covid-19 period the Thank You Tree weekly activity was closed off due to work from home. Created an application to resume the activity and increase employee morale. I also took creative design decisions to make the applications entity-wise configurable."
+    },
+    {
+      "img": "/imgs/skills/soft/time.png",
+      "type": "Time Management",
+      "info": "I worked on a project with regulatory requirements and a strict timeline for completion. My team was downsized by one during the Covid-19 outbreak but I still delivered all the requirements on time."
+    }
+  ]
+}

@@ -1,15 +1,15 @@
 import React, { useEffect, useState, useRef } from "react";
-import Header from "./Header.js";
-import Footer from "./Footer.js";
-import About from "./components/Landing/About.js";
-import Resume from "./components/Resume/Resume.js";
-import Skills from "./components/Skills/Skills.js";
-import Projects from "./components/Projects/Projects.js";
-import Blogs from "./components/Blogs/Blogs.js";
-import Certifications from "./components/Certifications/Certifications.js";
-import Hobbies from "./components/Hobbies/Hobbies.js";
+import Header from "./Header.jsx";
+import Footer from "./Footer.jsx";
+import About from "./components/Landing/About.jsx";
+import Resume from "./components/Resume/Resume.jsx";
+import Skills from "./components/Skills/Skills.jsx";
+import Projects from "./components/Projects/Projects.jsx";
+import Blogs from "./components/Blogs/Blogs.jsx";
+import Certifications from "./components/Certifications/Certifications.jsx";
+import Hobbies from "./components/Hobbies/Hobbies.jsx";
 import { HashRouter as Router, Routes, Route } from "react-router-dom";
-import { GlobalDataProvider } from "./provider/GlobalDataProvider.js";
+import { GlobalDataProvider } from "./provider/GlobalDataProvider.jsx";
 
 const App = () => {
   const [scrollToTop, setScrollToTop] = useState(false);

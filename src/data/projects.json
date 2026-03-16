@@ -1,0 +1,130 @@
+{
+  "url": "/projects",
+  "label": "Projects",
+  "projData": [
+    {
+      "img": "/imgs/projects/attendance_tracker.jpg",
+      "title": "Automated Attendance Tracker",
+      "type": ["aws", "backend"],
+      "link": "https://github.com/S-Threepio/Classroom-Attendance-Tracker",
+      "year": "May 2023",
+      "points": [
+        "Engineered a classroom assistant tool by creating a private cloud infrastructure using Openstack, enabling educators to effortlessly manage student progress and assignments, resulting in a 40% reduction in administrative workload.",
+        "Incorporated AWS Lambda, S3, and DynamoDB to enhance accuracy and efficiency by 25% in real-time student identification while handling 100 concurrent requests within 60 seconds."
+      ],
+      "tech": ["Openstack", "AWS Lambda", "AWS S3", "AWS DynamoDB", "AWS SQS", "AWS ECR", "Docker"]
+    },
+    {
+      "img": "/imgs/projects/port.png",
+      "title": "Morpholio : The Portfolio Builder",
+      "link": "https://github.com/S-Threepio/S-Threepio.github.io",
+      "year": "January 2023",
+      "type": ["frontend"],
+      "points": [
+        "Designed an innovative personal website builder using ReactJS and Tailwind CSS, resulting in a 50% reduction in development time and a 60% increase in user satisfaction.",
+        "Optimized website performance by implementing React Hooks and Context API, enabling seamless data sharing across components and enhancing user experience."
+      ],
+      "tech": ["React", "Javascript", "React Hooks", "Tailwind CSS"]
+    },
+    {
+      "img": "/imgs/projects/digit.png",
+      "title": "Handwritten Digits Classifier Flask Application",
+      "link": "https://github.com/S-Threepio/Handwritten-Digits-Classifier-Flask-Application",
+      "year": "November 2022",
+      "type": ["aws", "backend"],
+      "points": [
+        "Developed an ML application for handwritten digits classification, using Flask server and Docker for seamless deployment.",
+        "Utilized Kubernetes clusters on AWS EKS and GCP GKE for streamlined deployment.",
+        "Integrated Prometheus monitoring using Helm-charts for performance monitoring."
+      ],
+      "tech": ["Kubernetes", "Docker", "AWS EKS", "AWS EC2", "GCP GKE", "Prometheus", "Helm"]
+    },
+    {
+      "img": "/imgs/projects/meeting.png",
+      "title": "Meeting Assistant Web App",
+      "link": "https://github.com/S-Threepio/voyager-react",
+      "year": "November 2020",
+      "type": ["aws", "frontend"],
+      "points": [
+        "Created meeting assistant web app with speech-to-text transcription, meeting recording analysis and MoM generation increasing productivity by 55%.",
+        "Leveraged ReactJS and Material UI for a seamless user experience, a 20% increase in user retention.",
+        "Integrated AWS services for transcription, analysis, storage and security achieving 87% performance improvement."
+      ],
+      "tech": ["React", "Material UI", "AWS Cognito", "AWS Transcribe", "AWS Comprehend", "AWS Lambda", "AWS S3", "AWS DynamoDB", "AWS API Gateway"]
+    },
+    {
+      "img": "/imgs/projects/custody.jpg",
+      "title": "Computer Forensics: Chain of Custody",
+      "type": ["blockchain"],
+      "link": "https://github.com/S-Threepio/CSE469-project/tree/main",
+      "year": "October 2022",
+      "points": [
+        "Created a digital equivalent to a chain of custody to record the history of the evidence from the time it is found until the case is closed.",
+        "Utilized SHA-256 functions to maintain the validity of the custody chain and maintain the zero trust policy."
+      ],
+      "tech": ["Python", "C++", "Bash Scripting", "Blockchain", "MultiThreading", "SHA256 Encryption"]
+    },
+    {
+      "img": "/imgs/projects/blockchain.jpg",
+      "title": "Web Application for Crypto-Currency",
+      "link": "https://github.com/s-threepio/cryptochain",
+      "year": "March 2019",
+      "type": ["blockchain", "frontend", "backend"],
+      "points": [
+        "Created a web application for a cryptocurrency network backed by a blockchain including private wallets for users and miners.",
+        "Dockerized the whole application using WSL2 and Docker to create separate containers for users, miners and redis server to establish separation of concerns."
+      ],
+      "tech": ["Javascript", "Redis", "ExpressJS", "Node.JS", "Docker", "WSL2", "React", "Material UI", "SHA256 Encryption"]
+    },
+    {
+      "img": "/imgs/projects/ai.png",
+      "title": "Guardian Angel Mobile Application",
+      "link": "https://github.com/S-Threepio/Guardian-Angel-Mobile-Application",
+      "year": "October 2023",
+      "type": ["mobile", "backend"],
+      "points": [
+        "Created a Guardian Angel application which can send an email, schedule a task, play music based on your mood and summarize texts.",
+        "Utilizes OpenAI GPT to analyze and interpret the nature or category of the user's request."
+      ],
+      "tech": ["Android", "OpenAI GPT", "Flask", "MVVM", "View Binding", "Kotlin Coroutines", "Spotify API"]
+    },
+    {
+      "img": "/imgs/projects/TYT.png",
+      "title": "Thank You Tree Android App",
+      "link": "https://github.com/S-Threepio/thank_you_tree_app",
+      "year": "January 2020",
+      "type": ["mobile", "aws"],
+      "points": [
+        "Created a thank you tree android app for users to thank their colleagues online as part of a Great Place to Work initiative.",
+        "Designed the CRUD features on thank you notes and a dashboard for a reward based system at HSBC as well as share receipt functionality.",
+        "Built with Jetpack components and a robust MVVM Architecture with an AWS backend."
+      ],
+      "tech": ["Android", "RxJava", "MVVM", "Jetpack Compose", "LiveData", "View Binding", "Kotlin Coroutines", "AWS S3", "AWS DynamoDB", "AWS API Gateway"]
+    },
+    {
+      "img": "/imgs/projects/health.png",
+      "title": "Health Monitoring Application",
+      "link": "https://github.com/S-Threepio/Health-Monitoring-Application",
+      "year": "December 2023",
+      "type": ["mobile"],
+      "points": [
+        "Delivered a Health Monitoring Application achieving 95% accuracy in heart rate calculation through red intensity pixel analysis.",
+        "Utilized accelerometer algorithms for respiratory rate determination with 98% precision.",
+        "Leveraged Room DB for efficient data storage, reducing application response time by 20%."
+      ],
+      "tech": ["Android", "MVVM", "Jetpack Compose", "Service", "View Binding", "Kotlin Coroutines"]
+    },
+    {
+      "img": "/imgs/projects/utility.webp",
+      "title": "Utility Application Android",
+      "link": "https://github.com/S-Threepio/UtilityApplication",
+      "year": "June 2020",
+      "type": ["mobile"],
+      "points": [
+        "Combined the most commonly used elements in Android development into a single application to study them comparatively.",
+        "Implemented architecture patterns to familiarize students with separation of concerns."
+      ],
+      "tech": ["Android", "MVVM", "Asynchronous Task", "API call handling", "Broadcast", "Shared Preferences", "Room Database"]
+    }
+  ]
+}

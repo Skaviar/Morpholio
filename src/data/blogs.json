@@ -1,0 +1,29 @@
+{
+  "url": "/blogs",
+  "label": "Blogs",
+  "cover": "/imgs/blog/cover.jfif",
+  "summary": "My habit of sharing learnings developed at HSBC where I gave a lot of knowledge transfer sessions. This very habit nurtured my interest in writing technical blogs. Below are the technical blogs that I published with the same intention.",
+  "blogData": [
+    {
+      "img": "/imgs/blog/android.png",
+      "title": "01 Associate Android Developer Certification By Google",
+      "link": "https://s-threepio.medium.com/associate-android-developer-certification-by-google-114ab755c187",
+      "label": "[Medium]",
+      "info": "I explained the process of cracking the Google Android certification exam, interview and the approach for its preparation. I also created resources for the same purpose."
+    },
+    {
+      "img": "/imgs/blog/docker.png",
+      "title": "02 Docker Overview with React Application",
+      "link": "https://s-threepio.medium.com/docker-overview-41a3bbfa19f3",
+      "label": "[Medium]",
+      "info": "I touched upon the basics of Docker and its advantages. As an add on, I have also explained the process to dockerize a basic React application."
+    },
+    {
+      "img": "/imgs/blog/crypto.jpg",
+      "title": "03 Crypto Currency Block Chain Application",
+      "link": "https://s-threepio.medium.com/creating-a-cryptocurrency-blockchain-app-46d057d9a712",
+      "label": "[Medium]",
+      "info": "I wrote about the workings of blockchain technology. I also explained how your own cryptocurrency can be created by using a Redis publish-subscribe model for peers."
+    }
+  ]
+}

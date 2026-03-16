@@ -3,7 +3,6 @@ import Blog from "./Blog";
 import { GlobalDataContext } from "../../provider/GlobalDataProvider";
 
 const Blogs = () => {
-  var count = 0;
   const blogs = useContext(GlobalDataContext).blogs;
 
   return (
@@ -28,8 +27,8 @@ const Blogs = () => {
             <Blog
               key={index}
               blog={blog}
-              isEven={count % 2 === 0}
-              isLast={count++ === blogs.blogData.length - 1}
+              isEven={index % 2 === 0}
+              isLast={index === blogs.blogData.length - 1}
             />
           ))}
         </div>

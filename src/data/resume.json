@@ -1,0 +1,42 @@
+{
+  "url": "/resume",
+  "label": "Resume",
+  "summary": "Throughout my career, I have contributed to positive business results through effective organization, prioritization and follow-through of key organizational projects. As a Software developer I have always exercised a calculated and methodical approach to problem-solving. While I am independently motivated, I appreciate collective efforts and collaborate productively within group settings. To illustrate the scope of my career history and professional competencies, please take a moment to review my enclosed resume.",
+  "education": [
+    {
+      "year": "2022 - 2024",
+      "university": "Arizona State University",
+      "gpa": "4.0",
+      "info": "I completed my Master of Science in Computer Science at Arizona State University. My coursework included Cloud Computing, Distributed Database Systems, Machine Learning Fairness and Security."
+    },
+    {
+      "year": "2015 - 2019",
+      "university": "Vishwakarma Institute of Technology",
+      "gpa": "3.98",
+      "info": "I acquired my Bachelor of Technology degree in Computer Engineering from the Vishwakarma Institute of Technology. The relevant coursework included Data Structures, Design and Analysis of Algorithms, Web Technologies etc."
+    }
+  ],
+  "work": [
+    {
+      "year": "August 2022 - May 2024",
+      "organisation": "Arizona State University",
+      "role": "Graduate Service Assistant",
+      "detail": [
+        "Worked as a graduate service assistant for CSE 434: Computer Networks.",
+        "Responsibilities included grading assignments, labs and projects submitted by the students as well as resolving their queries related to grading."
+      ]
+    },
+    {
+      "year": "July 2019 - May 2021",
+      "organisation": "HSBC Software Development India",
+      "role": "Software Engineer",
+      "detail": [
+        "Built the HSBC Oman mobile banking app with 7 separate journeys involving payments and QR code features to deliver the regulatory requirements for Oman HSBC customers.",
+        "Designed the architecture for Oman features to make them entity wise scalable using JSON objects as input configuration.",
+        "Integrated features of Oman, Qatar and India into the HSBC global application spanning 60 countries with more than 20 modules to standardize all the developed functionalities.",
+        "Refactored the Cheque deposit journeys of UK entity to align it with the MVP architecture with potential 60% code reduction in view fragments.",
+        "Maintained the UI and Unit test coverage of 90% for all the features developed."
+      ]
+    }
+  ]
+}

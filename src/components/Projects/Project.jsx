@@ -4,10 +4,11 @@ import React, { useEffect } from "react";
 const Project = (props) => {
   const { data, filter } = props;
   let visible =
-    filter == "all" ||
+    filter === "all" ||
     data.type.some((type) => type.toLowerCase() === filter.toLowerCase());
   return (
     <Transition
+      as="div"
       className={`md:mx-5 my-2 md:my-0 flex flex-col items-start md:scale-[95%] bg-primary border border-gray-300 shadow-lg`}
       show={visible}
       enter="transition-opacity duration-1000"

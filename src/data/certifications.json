@@ -1,0 +1,31 @@
+{
+  "url": "/certifications",
+  "label": "Certifications",
+  "certs": [
+    {
+      "title": "Hackerrank - Problem Solving Intermediate",
+      "date": "June 2023",
+      "image": "/imgs/certs/hackerrank.png"
+    },
+    {
+      "title": "Technologist of the Quarter Award for Outstanding Performance by HSBC",
+      "date": "Jan-April 2020",
+      "image": "/imgs/certs/HSBC.png"
+    },
+    {
+      "title": "Google Certified Associate Android Developer",
+      "date": "Sep 2020 - Sep 2023",
+      "image": "/imgs/certs/google.png"
+    },
+    {
+      "title": "AWS Certified Solutions Architect - Associate (SAA)",
+      "date": "Feb 2020 - Feb 2023",
+      "image": "/imgs/certs/aws.png"
+    },
+    {
+      "title": "Machine Learning Certified by Coursera",
+      "date": "Jul 2019",
+      "image": "/imgs/certs/cour.png"
+    }
+  ]
+}
