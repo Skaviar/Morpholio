@@ -4,38 +4,54 @@
   "summary": "Throughout my career, I have contributed to positive business results through effective organization, prioritization and follow-through of key organizational projects. As a Software developer I have always exercised a calculated and methodical approach to problem-solving. While I am independently motivated, I appreciate collective efforts and collaborate productively within group settings. To illustrate the scope of my career history and professional competencies, please take a moment to review my enclosed resume.",
   "education": [
     {
-      "year": "2022 - 2024",
+      "year": "August 2022 - May 2024",
       "university": "Arizona State University",
       "gpa": "4.0",
-      "info": "I completed my Master of Science in Computer Science at Arizona State University. My coursework included Cloud Computing, Distributed Database Systems, Machine Learning Fairness and Security."
+      "info": "Master of Computer Science. Coursework: Cloud Computing, Distributed Database Systems, Mobile Computing."
     },
     {
       "year": "2015 - 2019",
       "university": "Vishwakarma Institute of Technology",
       "gpa": "3.98",
-      "info": "I acquired my Bachelor of Technology degree in Computer Engineering from the Vishwakarma Institute of Technology. The relevant coursework included Data Structures, Design and Analysis of Algorithms, Web Technologies etc."
+      "info": "Bachelor of Technology in Computer Engineering. Coursework included Data Structures, Design and Analysis of Algorithms, Web Technologies, and core Computer Science fundamentals."
     }
   ],
   "work": [
     {
-      "year": "August 2022 - May 2024",
-      "organisation": "Arizona State University",
-      "role": "Graduate Service Assistant",
+      "year": "March 2025 - Present",
+      "organisation": "Fetch",
+      "role": "Software Engineer",
       "detail": [
-        "Worked as a graduate service assistant for CSE 434: Computer Networks.",
-        "Responsibilities included grading assignments, labs and projects submitted by the students as well as resolving their queries related to grading."
+        "Building the scalable systems that power the seamless user experience."
+      ]
+    },
+    {
+      "year": "July 2024 - March 2025",
+      "organisation": "TikTok",
+      "role": "Software Engineer",
+      "detail": [
+        "Designed a cross-platform architecture with React and TypeScript, to build keyword filtering feature for TikTok family applications.",
+        "Led the development of the global donations feature on iOS, empowering 1B+ TikTok users to create customized fundraisers with unique stickers and real-time status updates.",
+        "Built an iOS web container module, simplifying web view pop-up integration for TikTok applications and event tracking for 100+ businesses, reducing development complexity by 30%."
+      ]
+    },
+    {
+      "year": "March 2024 - July 2024",
+      "organisation": "Privoro LLC",
+      "role": "Software Engineer",
+      "detail": [
+        "Led the development of a secure communication mobile app, utilizing advanced Kotlin features such as coroutines, flows, and Jetpack Compose achieving a notable 15% decrease in app crash rates, enhancing overall stability.",
+        "Designed a robust Safecase firmware evaluation system, employing a mobile app for cloud assessment and Raspberry Pi for hardware evaluation, yielding a 30% improvement in stability."
       ]
     },
     {
       "year": "July 2019 - May 2021",
-      "organisation": "HSBC Software Development India",
+      "organisation": "HSBC",
       "role": "Software Engineer",
       "detail": [
-        "Built the HSBC Oman mobile banking app with 7 separate journeys involving payments and QR code features to deliver the regulatory requirements for Oman HSBC customers.",
-        "Designed the architecture for Oman features to make them entity wise scalable using JSON objects as input configuration.",
-        "Integrated features of Oman, Qatar and India into the HSBC global application spanning 60 countries with more than 20 modules to standardize all the developed functionalities.",
-        "Refactored the Cheque deposit journeys of UK entity to align it with the MVP architecture with potential 60% code reduction in view fragments.",
-        "Maintained the UI and Unit test coverage of 90% for all the features developed."
+        "Developed the Oman mobile banking application with seven payment and QR code features, achieving compliance with regulations and driving increased customer adoption and streamlined transaction processing.",
+        "Implemented wallet functionalities for HSBC's global application with 20 modules across 60 countries.",
+        "Led a team of junior developers in the seamless integration of the Unified Payment Interface (UPI) into the global application."
       ]
     }
   ]

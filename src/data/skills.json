@@ -4,31 +4,35 @@
   "tech": [
     {
       "type": "Programming Languages",
-      "info": "Python, Java, Kotlin, C++, C, Javascript"
+      "info": "Java, Kotlin, Objective-C, Swift, Python, Javascript, Typescript, C++, C"
+    },
+    {
+      "type": "iOS Development",
+      "info": "Swift, Objective-C, UIKit, SwiftUI, XCTest, CocoaPods"
     },
     {
       "type": "Android Development",
-      "info": "MVVM, Jetpack components, LiveData, RxJava, Retrofit, Kotlin Coroutines, View and Data Binding"
+      "info": "MVVM, Compose, Jetpack, LiveData, State Flows, Kotlin Coroutines, View Model, Data Binding"
     },
     {
-      "type": "Web Technology",
-      "info": "ReactJS, CSS, Tailwind CSS, Bootstrap, Jquery"
+      "type": "Frontend Development",
+      "info": "React, Angular, CSS, Tailwind CSS, Bootstrap, Jquery, HTML, Material UI"
     },
     {
-      "type": "Backend",
-      "info": "Spring, SpringBoot, Hibernate, ExpressJS, NodeJS"
+      "type": "Backend Development",
+      "info": "Microservices, PostgreSQL, MySQL, Spring Boot, ExpressJS, Node.js, Flask, REST API, Hibernate"
     },
     {
       "type": "AWS Cloud",
-      "info": "S3, Dynamo-DB, API-Gateway, Lambda, Transcribe, Comprehend, Cognito"
+      "info": "AWS EKS, S3, EC2, Dynamo-DB, API-Gateway, Lambda, Transcribe, Comprehend, Cognito, SQS"
     },
     {
-      "type": "Containerization",
-      "info": "Docker, Vagrant, WSL2"
+      "type": "DevOps",
+      "info": "Kubernetes, Container Orchestration, Docker, Cluster Management, Monitoring and Logging, Resource Management"
     },
     {
       "type": "Software Development Practices",
-      "info": "Agile, Scrum, JIRA, Confluence, Github"
+      "info": "Agile, Scrum, Jira, Test Driven Development, Github, DevOps, Continuous Integration"
     }
   ],
   "soft": [

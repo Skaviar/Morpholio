@@ -12,15 +12,15 @@
   "footer": {
     "socialMediaURLs": [
       {
-        "url": "https://www.linkedin.com/in/s-threepio/",
+        "url": "https://www.linkedin.com/in/skavitkar/",
         "icon": "/imgs/landing/linkedin.png"
       },
       {
-        "url": "https://github.com/S-Threepio",
+        "url": "https://github.com/Skaviar",
         "icon": "/imgs/landing/github.png"
       },
       {
-        "url": "https://s-threepio.medium.com/",
+        "url": "https://skavitkar.medium.com/",
         "icon": "/imgs/landing/medium.png"
       }
     ],
@@ -31,19 +31,19 @@
   "cardsection": {
     "socialMediaURLs": [
       {
-        "url": "https://www.linkedin.com/in/s-threepio/",
+        "url": "https://www.linkedin.com/in/skavitkar/",
         "icon": "/imgs/landing/linkedin-blue.png"
       },
       {
-        "url": "https://leetcode.com/Masked_Yurnero/",
+        "url": "https://leetcode.com/u/Skavitkar/",
         "icon": "/imgs/landing/leetcode.png"
       },
       {
-        "url": "https://s-threepio.medium.com/",
+        "url": "https://skavitkar.medium.com/",
         "icon": "/imgs/landing/medium.png"
       },
       {
-        "url": "https://github.com/S-Threepio",
+        "url": "https://github.com/Skaviar",
         "icon": "/imgs/landing/github.png"
       }
     ],
@@ -56,6 +56,6 @@
   "bio": {
     "bigGreet": "Hello",
     "intro": "I am Swanand and I code.",
-    "description": "I completed my Master's degree in Computer Science at Arizona State University. Previously, I worked as a Software Engineer at HSBC, where I played a crucial role in developing feature-rich mobile banking applications to enhance customer experience and optimize transactions. With a solid background in Web and Android development, I possess expertise in AWS Cloud services.\n\nI am actively pursuing full-time software engineer opportunities to utilize my exceptional academic achievements and hands-on experience, aiming to create significant contributions within the technology industry.\n\nIf you are seeking someone to build scalable and high-quality software products, feel free to reach out to me on phone/email mentioned below.\n\nHave a great day!!"
+    "description": "I am a Backend Engineer at Fetch, building the invisible magic behind seamless user experiences. Previously I was an iOS Developer at TikTok in San Jose, where I shipped features used by over a billion users — including real-time compliance channels, cross-platform keyword filtering, and the global Donations feature.\n\nI hold a Master of Science in Computer Science from Arizona State University (GPA 4.0) and have industry experience spanning iOS, Android, and backend development across TikTok, Privoro, and HSBC.\n\nIf you are looking for someone who builds scalable, high-quality software, feel free to reach out.\n\nHave a great day!!"
   }
 }
