@@ -1,68 +1,37 @@
-# Live website : www.skavitkar.com 
+# Morpholio
 
-# Getting Started with Morpholio
+Swanand Kavitkar’s portfolio, built with React, Vite, and Tailwind CSS.
 
-To get started with Morpholio, follow these steps:
+## Develop
 
-1. Clone the repository from GitHub: `git clone https://github.com/S-Threepio/Morpholio.git`.
-2. Navigate to the project directory: `cd Morpholio`.
-3. Install the necessary dependencies by running: `npm install`.
+```sh
+npm ci
+npm start
+```
 
-## `npm start`
-- Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Open the local URL printed by Vite (normally `http://localhost:5173`).
 
-- The page will reload when you make changes.\
-- You may also see any lint errors in the console.
+```sh
+npm run build
+npm run preview
+```
 
+The production build goes into `dist/`. `npm run deploy` explicitly publishes it to GitHub Pages; ordinary development and builds do not publish.
 
-# Creating your own portfolio using Morpholio
-- Clone this repository and open the project in an IDE (such as Visual studio code)
-- Put all the images that you want to use in [img](https://github.com/S-Threepio/Morpholio/tree/master/src/imgs) directory
-- Navigate to [GlobalDataProvider](https://github.com/S-Threepio/S-Threepio.github.io/blob/master/src/provider/GlobalDataProvider.js)
+## Content and navigation
 
-- Update the Json file data as per your requirement.
-- Every entry corresponds to a page and you can edit the content and the image to be used as per your need 
-- Delete the JSON entry for the pages that you don't want to use
-- **PLEASE NOTE :**
-Having a resume and a project is the bare minimum requirement for this site.
-If you dont have one of these then in addition to deleting the json object you have to delete the respective button on landing page's basic button section 
-[BasicButtons](https://github.com/S-Threepio/S-Threepio.github.io/blob/master/src/components/Landing/BasicButtons.js) 
+- `src/data/featured-projects.json`: curated projects, descriptions, technologies, and destination links. Sudotrail and Kafka Solo lead the collection.
+- `src/data/resume.json`: work history and education.
+- `src/data/blogs.json`: article titles, previews, images, and links.
+- `src/data/hobbies.json`: the About page’s Outside work cards. Each card has a local image, description, and image alt text.
+- `src/data/certifications.json`: dated credentials and recognition.
+- `src/App.jsx`: Work, About, and Blogs pages, with a short introduction, illustrated project panels, full work contributions, and article thumbnails.
+- `src/Header.jsx` and `src/Footer.jsx`: navigation, social links, resume, and contact details.
+- `src/index.css`: responsive layouts, colors, type, and reduced-motion styles.
+- `public/`: served images, favicon, and resume PDF.
 
+Hash routing supports GitHub Pages without server rewrites. Previous `/projects`, `/resume`, `/skills`, `/hobbies`, `/certifications`, and `/writing` hash routes still resolve. The retired components and original data files remain available for reference; the redesigned application uses the files listed above.
 
-# Deploying your Portfolio on github.io
-- Open the package.json file in your project and change the following property:
+Project descriptions were checked against the public repositories at `github.com/Skaviar/SudoTrail` and `github.com/Skaviar/kafka-solo`.
 
-- "homepage": "https://your-username.github.io/your-repo-name",
-**This field is not the domain name of your website but rather where your repository is located**
-
-- Replace your-username with your GitHub username and your-repo-name with the name of your GitHub repository.
-Save the changes to the package.json file.
-**github-gh page dependency and pre-deploy,deploy scripts are already present in the repository**
-
-- Finally, to deploy your app, run the command: **npm run deploy**. 
-This will create a branch called gh-pages in your GitHub repository and deploy the contents of the build folder to that branch.
-After the deployment is complete, you can access your live Morpholio website at https://your-username.github.io/your-repo-name.
-**Note: Make sure you have the necessary permissions to deploy to the repository.**
-
-
-# Custom Domain name for your website
-- Buy a domain from a domain name provider
-- Go to the DNS settings page for domain name provider
-- Point all the A records to 
-`185.199.108.153`
-`185.199.109.153`
-`185.199.110.153`
-`185.199.111.153`
-as per [Github managing a custom domain](https://docs.github.com/en/pages/configuring-a-custom-domain-for-your-github-pages-site/managing-a-custom-domain-for-your-github-pages-site)
-
-- Point the CNAME record to your current github domain for your portfolio e.g. **"https://your-username.github.io"**
-- In the setting page of the repository got to pages and put your custom domain name e.g. **"www.skavitkar.com"**
-- click save, and DNS check will get done in some time.
-- once the DNS check is complete, check the Enforce https box
-- Voila your custom domain is ready!!!
-
-Happy deploying! 🚀🌐
-Let's get creative and transform your portfolio with Morpholio! 🚀🎨
-
-
+Project cards include local images. Sudotrail uses its repository’s preview artwork; the face recognition and blockchain illustrations are original SVG assets.

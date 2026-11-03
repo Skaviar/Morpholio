@@ -1,0 +1,47 @@
+[
+  {
+    "id": "sudotrail",
+    "name": "Sudotrail",
+    "category": "Apps",
+    "description": "A Sudoku solver that explains each move. Built with Go and WebAssembly.",
+    "tags": ["Go", "WebAssembly", "JavaScript"],
+    "github": "https://github.com/Skaviar/SudoTrail",
+    "live": "https://sudotrail.pages.dev/",
+    "detail": "Follow logical placements and candidate eliminations with visual explanations. Practice across 2,000 puzzles, import a photo (beta), and keep your progress in your browser. The Go solver runs locally through WebAssembly.",
+    "image": "/imgs/projects/sudotrail.png",
+    "imageAlt": "Sudotrail project preview: solve Sudoku step by step"
+  },
+  {
+    "id": "kafka",
+    "name": "Kafka Solo",
+    "category": "Systems",
+    "description": "A single-node message broker in Go, with partitioned topics and consumer rebalancing.",
+    "tags": ["Go", "TCP", "Message queues"],
+    "github": "https://github.com/Skaviar/kafka-solo",
+    "detail": "Partitioned topics, persistent binary logs, key-based message routing, and automatic consumer rebalancing. A Go client SDK connects producers and consumers over a length-prefixed JSON protocol. Designed as a single-node broker.",
+    "image": "/imgs/projects/gokafka.png",
+    "imageAlt": "Go gopher and Kafka logo"
+  },
+  {
+    "id": "cloud",
+    "name": "Face Recognition as a Service",
+    "category": "Systems",
+    "description": "A two-tier face recognition service with queued requests and persistent results.",
+    "tags": ["AWS", "Cloud infrastructure", "S3"],
+    "github": "https://github.com/Skaviar/Face-Recognition-as-a-Service",
+    "detail": "A web application using AWS infrastructure, a request queue, and S3 to persist recognition results.",
+    "image": "/imgs/projects/face-recognition.svg",
+    "imageAlt": "Illustration of face detection with a recognition frame"
+  },
+  {
+    "id": "cryptochain",
+    "name": "Cryptochain Blockchain Application",
+    "category": "Systems",
+    "description": "A cryptocurrency app with a blockchain, wallets, and peer-to-peer transactions.",
+    "tags": ["React", "Express", "Redis"],
+    "github": "https://github.com/Skaviar/Cryptochain-Blockchain-Application",
+    "detail": "An Express backend and React frontend for viewing blocks, creating transactions, and mining transaction pools. Redis publish-subscribe keeps peer nodes in sync.",
+    "image": "/imgs/projects/cryptochain.svg",
+    "imageAlt": "Illustration of linked blockchain blocks"
+  }
+]

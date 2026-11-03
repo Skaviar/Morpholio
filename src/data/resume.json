@@ -4,13 +4,13 @@
   "summary": "Throughout my career, I have contributed to positive business results through effective organization, prioritization and follow-through of key organizational projects. As a Software developer I have always exercised a calculated and methodical approach to problem-solving. While I am independently motivated, I appreciate collective efforts and collaborate productively within group settings. To illustrate the scope of my career history and professional competencies, please take a moment to review my enclosed resume.",
   "education": [
     {
-      "year": "August 2022 - May 2024",
+      "year": "August 2022 to May 2024",
       "university": "Arizona State University",
       "gpa": "4.0",
       "info": "Master of Computer Science. Coursework: Cloud Computing, Distributed Database Systems, Mobile Computing."
     },
     {
-      "year": "2015 - 2019",
+      "year": "2015 to 2019",
       "university": "Vishwakarma Institute of Technology",
       "gpa": "3.98",
       "info": "Bachelor of Technology in Computer Engineering. Coursework included Data Structures, Design and Analysis of Algorithms, Web Technologies, and core Computer Science fundamentals."
@@ -18,7 +18,7 @@
   ],
   "work": [
     {
-      "year": "March 2025 - Present",
+      "year": "March 2025 to Present",
       "organisation": "Fetch",
       "role": "Software Engineer",
       "detail": [
@@ -26,32 +26,32 @@
       ]
     },
     {
-      "year": "July 2024 - March 2025",
+      "year": "July 2024 to March 2025",
       "organisation": "TikTok",
       "role": "Software Engineer",
       "detail": [
-        "Designed a cross-platform architecture with React and TypeScript, to build keyword filtering feature for TikTok family applications.",
-        "Led the development of the global donations feature on iOS, empowering 1B+ TikTok users to create customized fundraisers with unique stickers and real-time status updates.",
-        "Built an iOS web container module, simplifying web view pop-up integration for TikTok applications and event tracking for 100+ businesses, reducing development complexity by 30%."
+        "Designed cross-platform keyword filtering for TikTok family applications using React and TypeScript.",
+        "Led development of the global iOS donations feature, including fundraiser stickers and real-time status updates.",
+        "Built a reusable iOS web container for pop-up integration and business event tracking."
       ]
     },
     {
-      "year": "March 2024 - July 2024",
+      "year": "March 2024 to July 2024",
       "organisation": "Privoro LLC",
       "role": "Software Engineer",
       "detail": [
-        "Led the development of a secure communication mobile app, utilizing advanced Kotlin features such as coroutines, flows, and Jetpack Compose achieving a notable 15% decrease in app crash rates, enhancing overall stability.",
-        "Designed a robust Safecase firmware evaluation system, employing a mobile app for cloud assessment and Raspberry Pi for hardware evaluation, yielding a 30% improvement in stability."
+        "Built a secure communication app with Kotlin coroutines, flows, and Jetpack Compose.",
+        "Developed a Safecase firmware evaluation system combining a mobile app, cloud assessment, and Raspberry Pi hardware testing."
       ]
     },
     {
-      "year": "July 2019 - May 2021",
+      "year": "July 2019 to May 2021",
       "organisation": "HSBC",
       "role": "Software Engineer",
       "detail": [
-        "Developed the Oman mobile banking application with seven payment and QR code features, achieving compliance with regulations and driving increased customer adoption and streamlined transaction processing.",
-        "Implemented wallet functionalities for HSBC's global application with 20 modules across 60 countries.",
-        "Led a team of junior developers in the seamless integration of the Unified Payment Interface (UPI) into the global application."
+        "Developed payment and QR code features for the Oman mobile banking app.",
+        "Implemented wallet functionality for HSBC\u2019s global app across 20 modules and 60 countries.",
+        "Led junior developers through the integration of Unified Payment Interface (UPI) payments."
       ]
     }
   ]

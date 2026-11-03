@@ -12,5 +12,25 @@
       "img": "/imgs/hobby/piano.webp",
       "description": "Apart from listening to music, I also love to create my own with the beautiful 88-key beast. I compose when I am lucky and I play when I am not busy. I try to incorporate what Beethoven said about music: \"To play a wrong note is insignificant, but to play without passion is inexcusable.\""
     }
+  ],
+  "interests": [
+    {
+      "title": "Piano",
+      "description": "I play piano and compose when inspiration strikes. Making music is one of my favorite ways to spend time away from code.",
+      "image": "/imgs/hobby/piano.webp",
+      "alt": "Playing a keyboard piano"
+    },
+    {
+      "title": "Reading",
+      "description": "Mostly fantasy fiction. I enjoy imaginative worlds, layered characters, and a story that stays with me after the last page.",
+      "image": "/imgs/hobby/book.webp",
+      "alt": "The Wise Man’s Fear by Patrick Rothfuss beside a cup of coffee"
+    },
+    {
+      "title": "Gaming",
+      "description": "I like playing solo, story-driven games.",
+      "image": "/imgs/hobby/sekiro.webp",
+      "alt": "A shinobi facing a burning temple in Sekiro"
+    }
   ]
 }

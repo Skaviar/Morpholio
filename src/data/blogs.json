@@ -9,21 +9,21 @@
       "title": "01 Associate Android Developer Certification By Google",
       "link": "https://skavitkar.medium.com/associate-android-developer-certification-by-google-114ab755c187",
       "label": "[Medium]",
-      "info": "I explained the process of cracking the Google Android certification exam, interview and the approach for its preparation. I also created resources for the same purpose."
+      "info": "A guide to preparing for Google\u2019s Associate Android Developer certification, from the exam and interview process to the study approach I used. Includes resources to help structure your preparation."
     },
     {
       "img": "/imgs/blog/docker.png",
       "title": "02 Docker Overview with React Application",
       "link": "https://skavitkar.medium.com/docker-overview-41a3bbfa19f3",
       "label": "[Medium]",
-      "info": "I touched upon the basics of Docker and its advantages. As an add on, I have also explained the process to dockerize a basic React application."
+      "info": "An introduction to Docker, why containers are useful, and how they fit into a development workflow. Walk through containerizing a React application with a practical example."
     },
     {
       "img": "/imgs/blog/crypto.jpg",
       "title": "03 Crypto Currency Block Chain Application",
       "link": "https://skavitkar.medium.com/creating-a-cryptocurrency-blockchain-app-46d057d9a712",
       "label": "[Medium]",
-      "info": "I wrote about the workings of blockchain technology. I also explained how your own cryptocurrency can be created by using a Redis publish-subscribe model for peers."
+      "info": "An explanation of how a blockchain works, followed by building a cryptocurrency application. Covers using Redis publish-subscribe to communicate between peers."
     }
   ]
 }
