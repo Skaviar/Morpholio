@@ -8,6 +8,7 @@ import {
 } from "react-router-dom";
 import Header from "./Header";
 import Footer from "./Footer";
+import Motion from "./components/Motion";
 import resume from "./data/resume.json";
 import blogs from "./data/blogs.json";
 import certifications from "./data/certifications.json";
@@ -222,6 +223,16 @@ export function About() {
               <div className="hobby-copy">
                 <h3>{hobby.title}</h3>
                 <p>{hobby.description}</p>
+                {hobby.favorites?.length > 0 && (
+                  <div className="hobby-favorites">
+                    <h4>A few favorites</h4>
+                    <ul>
+                      {hobby.favorites.map((title) => (
+                        <li key={title}>{title}</li>
+                      ))}
+                    </ul>
+                  </div>
+                )}
               </div>
             </article>
           ))}
@@ -286,6 +297,7 @@ export default function App() {
   return (
     <HashRouter>
       <ScrollReset />
+      <Motion />
       <a
         className="skip-link"
         href="#main-content"

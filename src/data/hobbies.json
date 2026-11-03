@@ -24,13 +24,23 @@
       "title": "Reading",
       "description": "Mostly fantasy fiction. I enjoy imaginative worlds, layered characters, and a story that stays with me after the last page.",
       "image": "/imgs/hobby/book.webp",
-      "alt": "The Wise Man’s Fear by Patrick Rothfuss beside a cup of coffee"
+      "alt": "The Wise Man’s Fear by Patrick Rothfuss beside a cup of coffee",
+      "favorites": [
+        "The Kingkiller Chronicle",
+        "The Stormlight Archive",
+        "An Ember in the Ashes"
+      ]
     },
     {
       "title": "Gaming",
       "description": "I like playing solo, story-driven games.",
       "image": "/imgs/hobby/sekiro.webp",
-      "alt": "A shinobi facing a burning temple in Sekiro"
+      "alt": "A shinobi facing a burning temple in Sekiro",
+      "favorites": [
+        "Sekiro: Shadows Die Twice",
+        "Black Myth: Wukong",
+        "God of War trilogy"
+      ]
     }
   ]
 }
