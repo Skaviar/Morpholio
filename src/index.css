@@ -108,8 +108,7 @@ p {
   gap: 28px;
   font-size: 0.9rem;
 }
-.navigation a,
-.navigation .nav-contact {
+.navigation a {
   color: var(--muted);
   text-decoration: none;
   padding: 14px 0;
@@ -120,8 +119,7 @@ p {
   text-underline-offset: 8px;
   font-weight: 600;
 }
-.navigation a:hover,
-.navigation .nav-contact:hover {
+.navigation a:hover {
   color: var(--accent);
 }
 .menu-toggle,
@@ -416,12 +414,7 @@ details > p {
   color: var(--muted);
   font-size: 0.82rem;
 }
-.nav-contact {
-  border: 0;
-  background: transparent;
-  font: inherit;
-  text-align: left;
-}
+
 .interior {
   padding-top: 48px;
   padding-bottom: 56px;
@@ -660,8 +653,7 @@ main:focus {
     pointer-events: auto;
     transform: translateY(0);
   }
-  .navigation a,
-  .navigation .nav-contact {
+  .navigation a {
     min-height: 48px;
     padding: 13px 16px;
     border-radius: 8px;
@@ -670,8 +662,7 @@ main:focus {
     background: #eee4ed;
     text-decoration: none;
   }
-  .navigation a:hover,
-  .navigation .nav-contact:hover {
+  .navigation a:hover {
     background: #f3ede7;
   }
   .menu-backdrop {

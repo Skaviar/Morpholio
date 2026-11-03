@@ -1,6 +1,5 @@
 import React, { useEffect, useRef, useState } from "react";
 import { Link, NavLink, useLocation } from "react-router-dom";
-import scrollToContact from "./scrollToContact";
 
 export default function Header() {
   const [open, setOpen] = useState(false);
@@ -98,16 +97,6 @@ export default function Header() {
             </NavLink>
             <NavLink to="/about">About</NavLink>
             <NavLink to="/blogs">Blogs</NavLink>
-            <button
-              type="button"
-              className="nav-contact"
-              onClick={() => {
-                if (open) closeMenu();
-                scrollToContact();
-              }}
-            >
-              Contact
-            </button>
             <a
               className="resume-link"
               href="/Swanand_Kavitkar.pdf"
