@@ -9,6 +9,7 @@ import {
 import Header from "./Header";
 import Footer from "./Footer";
 import Motion from "./components/Motion";
+import scrollToContact from "./scrollToContact";
 import resume from "./data/resume.json";
 import blogs from "./data/blogs.json";
 import certifications from "./data/certifications.json";
@@ -73,12 +74,13 @@ export function Work({ hero = true }) {
               Privoro, and HSBC.
             </p>
             <div className="hero-actions">
-              <a
+              <button
+                type="button"
                 className="button button-primary"
-                href="mailto:kavitkarswanand5@gmail.com"
+                onClick={scrollToContact}
               >
                 Contact me
-              </a>
+              </button>
               <a
                 className="button button-secondary"
                 href="/Swanand_Kavitkar.pdf"
