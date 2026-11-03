@@ -154,9 +154,21 @@ export function About() {
         </div>
         {resume.work.map((w) => (
           <article className="experience-row" key={w.organisation}>
-            <div>
-              <h3>{w.organisation}</h3>
-              <span>{w.role}</span>
+            <div className="company-heading">
+              <span className="company-logo-frame">
+                <img
+                  className="company-logo"
+                  src={w.logo}
+                  alt=""
+                  width="48"
+                  height="48"
+                  loading="lazy"
+                />
+              </span>
+              <div>
+                <h3>{w.organisation}</h3>
+                <span className="company-role">{w.role}</span>
+              </div>
             </div>
             <ul className="work-contributions">
               {w.detail.map((point) => (
@@ -182,21 +194,43 @@ export function About() {
             <summary>Education</summary>
             {resume.education.map((e) => (
               <div className="education" key={e.university}>
-                <h3>{e.university}</h3>
-                <p>{e.info.split(". Coursework")[0]}</p>
-                <span>
-                  {e.year} · GPA {e.gpa}
-                </span>
+                <div className="credential-logo-frame">
+                  <img
+                    src={e.logo}
+                    alt=""
+                    width="40"
+                    height="40"
+                    loading="lazy"
+                  />
+                </div>
+                <div className="education-copy">
+                  <h3>{e.university}</h3>
+                  <p>{e.info.split(". Coursework")[0]}</p>
+                  <span>
+                    {e.year} · GPA {e.gpa}
+                  </span>
+                </div>
               </div>
             ))}
           </details>
-          <details>
+          <details open>
             <summary>Recognition and credentials</summary>
             <ul className="credential-list">
               {certifications.certs.map((c) => (
                 <li key={c.title}>
-                  {c.title}
-                  <span>{c.date}</span>
+                  <div className="credential-logo-frame">
+                    <img
+                      src={c.image}
+                      alt=""
+                      width="40"
+                      height="40"
+                      loading="lazy"
+                    />
+                  </div>
+                  <div className="credential-copy">
+                    <span className="credential-title">{c.title}</span>
+                    <span className="credential-date">{c.date}</span>
+                  </div>
                 </li>
               ))}
             </ul>

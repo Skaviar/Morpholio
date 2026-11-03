@@ -394,12 +394,12 @@ details > p {
 }
 .experience-row {
   display: grid;
-  grid-template-columns: 190px 1fr;
+  grid-template-columns: 240px minmax(0, 1fr);
   gap: 8px 32px;
   padding-block: 24px;
   border-top: 1px solid var(--line);
 }
-.experience-row > div > span {
+.company-role {
   display: inline-block;
   color: var(--muted);
   font-size: 0.88rem;
@@ -431,7 +431,13 @@ details > p {
   font-weight: 600;
 }
 .education {
-  padding: 8px 0 20px;
+  display: flex;
+  align-items: flex-start;
+  gap: 14px;
+  padding: 8px 0 24px;
+}
+.education-copy {
+  min-width: 0;
 }
 .education h3 {
   font-size: 1rem;
@@ -439,19 +445,23 @@ details > p {
 .education p {
   margin-block: 8px;
 }
-.education > span {
+.education-copy > span {
   color: var(--muted);
   font-size: 0.88rem;
 }
 .credential-list {
-  padding: 0 0 0 20px;
+  list-style: none;
+  padding: 0;
   margin-top: 8px;
 }
 .credential-list li {
-  padding-bottom: 16px;
+  display: flex;
+  align-items: flex-start;
+  gap: 14px;
+  padding-bottom: 20px;
   line-height: 1.6;
 }
-.credential-list li > span {
+.credential-date {
   display: block;
   font-size: 0.88rem;
   color: var(--muted);
@@ -881,4 +891,62 @@ main:focus {
   to {
     opacity: 1;
   }
+}
+
+.company-heading {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  min-width: 0;
+}
+.company-logo-frame {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex: 0 0 56px;
+  width: 56px;
+  height: 56px;
+  border: 1px solid var(--line);
+  border-radius: 12px;
+  background: white;
+  padding: 7px;
+}
+.company-logo {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+@media (max-width: 760px) {
+  .company-logo-frame {
+    flex-basis: 48px;
+    width: 48px;
+    height: 48px;
+    padding: 6px;
+  }
+}
+
+.credential-logo-frame {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 48px;
+  height: 48px;
+  flex: 0 0 48px;
+  padding: 7px;
+  border: 1px solid var(--line);
+  border-radius: 10px;
+  background: white;
+}
+.credential-logo-frame img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+.credential-copy {
+  min-width: 0;
+}
+.credential-title {
+  font-size: 0.95rem;
 }

@@ -7,13 +7,15 @@
       "year": "August 2022 to May 2024",
       "university": "Arizona State University",
       "gpa": "4.0",
-      "info": "Master of Computer Science. Coursework: Cloud Computing, Distributed Database Systems, Mobile Computing."
+      "info": "Master of Computer Science. Coursework: Cloud Computing, Distributed Database Systems, Mobile Computing.",
+      "logo": "/imgs/education/asu.png"
     },
     {
       "year": "2015 to 2019",
       "university": "Vishwakarma Institute of Technology",
       "gpa": "3.98",
-      "info": "Bachelor of Technology in Computer Engineering. Coursework included Data Structures, Design and Analysis of Algorithms, Web Technologies, and core Computer Science fundamentals."
+      "info": "Bachelor of Technology in Computer Engineering. Coursework included Data Structures, Design and Analysis of Algorithms, Web Technologies, and core Computer Science fundamentals.",
+      "logo": "/imgs/education/vit.jpg"
     }
   ],
   "work": [
@@ -23,7 +25,8 @@
       "role": "Software Engineer",
       "detail": [
         "Building the scalable systems that power the seamless user experience."
-      ]
+      ],
+      "logo": "/imgs/companies/fetch.png"
     },
     {
       "year": "July 2024 to March 2025",
@@ -33,7 +36,8 @@
         "Designed cross-platform keyword filtering for TikTok family applications using React and TypeScript.",
         "Led development of the global iOS donations feature, including fundraiser stickers and real-time status updates.",
         "Built a reusable iOS web container for pop-up integration and business event tracking."
-      ]
+      ],
+      "logo": "/imgs/companies/tiktok.png"
     },
     {
       "year": "March 2024 to July 2024",
@@ -42,7 +46,8 @@
       "detail": [
         "Built a secure communication app with Kotlin coroutines, flows, and Jetpack Compose.",
         "Developed a Safecase firmware evaluation system combining a mobile app, cloud assessment, and Raspberry Pi hardware testing."
-      ]
+      ],
+      "logo": "/imgs/companies/privoro.webp"
     },
     {
       "year": "July 2019 to May 2021",
@@ -50,9 +55,10 @@
       "role": "Software Engineer",
       "detail": [
         "Developed payment and QR code features for the Oman mobile banking app.",
-        "Implemented wallet functionality for HSBC\u2019s global app across 20 modules and 60 countries.",
+        "Implemented wallet functionality for HSBC’s global app across 20 modules and 60 countries.",
         "Led junior developers through the integration of Unified Payment Interface (UPI) payments."
-      ]
+      ],
+      "logo": "/imgs/companies/hsbc.svg"
     }
   ]
 }
